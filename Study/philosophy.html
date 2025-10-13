@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Учёба</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            line-height: 1.7;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+
+        h1 {
+            font-weight: 500;
+            text-align: center;
+            margin-bottom: 30px;
+            color: #2c3e50;
+            font-size: 2.3em;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 15px;
+        }
+
+        h2 {
+            font-weight: 500;
+            color: #2c3e50;
+            margin: 35px 0 20px 0;
+            font-size: 1.5em;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin-bottom: 1.5em;
+            text-align: justify;
+            letter-spacing: 0.2px;
+        }
+
+        .intro {
+            background-color: #e8f4fc;
+            border-left: 4px solid #3498db;
+            padding: 25px;
+            border-radius: 0 12px 12px 0;
+            margin: 30px 0;
+        }
+
+        .fallacy-type {
+            margin-bottom: 30px;
+            padding: 25px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #e74c3c;
+        }
+
+        .fallacy-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .fallacy-number {
+            background-color: #e74c3c;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+
+        .fallacy-title {
+            font-weight: 500;
+            color: #2c3e50;
+            font-size: 1.3em;
+            margin: 0;
+        }
+
+        .example {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border-left: 3px solid #95a5a6;
+        }
+
+        .example-title {
+            font-weight: 500;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .dialogue {
+            background-color: white;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 10px 0;
+            border: 1px solid #e0e0e0;
+        }
+
+        .speaker {
+            font-weight: 500;
+            color: #3498db;
+        }
+
+        .ad-hominem {
+            color: #e74c3c;
+            font-weight: 500;
+        }
+
+        .conclusion {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin: 40px 0;
+            text-align: center;
+        }
+
+        .conclusion h2 {
+            color: white;
+            margin-top: 0;
+        }
+
+        .emoji {
+            font-size: 1.3em;
+            margin-right: 8px;
+        }
+
+        .nav-active {
+            background-color: #1eff00;
+            font-weight: bold;
+            color: #000;
+            padding: 5px;
+            border-radius: 3px;
+        }
+
+        ul {
+            margin: 30px 0;
+            padding-left: 0;
+            list-style: none;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #333;
+            padding: 12px 15px;
+            display: block;
+            background-color: white;
+            border-left: 4px solid #3498db;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+
+        ul li a:hover {
+            background-color: #e8f4fc;
+            transform: translateX(5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Ad Hominem</h1>
+
+    <div class="intro">
+        <p><strong>Эд Хоминем</strong> — это вовсе не имя какого-то известного философа – это термин, который обозначает то, с чем мы с вами
+        сталкиваемся в разной среде почти каждый день. С латыни это словосочетание переводится как "к человеку", или
+        "против человека". Вещь весьма неприятная, однако с ней знаком каждый, просто не все знают, как именно она
+        называется.</p>
+    </div>
+
+    <h2>Что такое Ad Hominem?</h2>
+
+    <p><strong>Ad Hominem</strong> - это логическая ошибка, при которой аргумент якобы опровергается указанием на характер, мотив или
+        другой атрибут лица, приводящего аргумент, или лица, связанного с аргументом, вместо указания на
+        несостоятельность самого аргумента, объективные факты или логические рассуждения.</p>
+
+    <p>Человек может начать вести себя подобным образом, когда с чьим-то мнением он не согласен, но не опровергает его прямо, 
+        а использует скрытую манипуляцию и порой совершенно ненужный переход к другой теме разговора.</p>
+
+    <h2>Типы Ad Hominem</h2>
+
+    <div class="fallacy-type">
+        <div class="fallacy-header">
+            <div class="fallacy-number">1</div>
+            <div class="fallacy-title"><span class="emoji">😒</span> Оскорбительный (абьюзивный) Ad Hominem</div>
+        </div>
+        <p>В данном случае происходит атака на самого человека, а не на его аргумент. Демонстрируется оппозиция не по
+        отношению к его словам, а к нему самому.</p>
+        <div class="example">
+            <div class="example-title">Пример:</div>
+            <div class="dialogue">
+                <div class="speaker">А:</div>
+                <div>Спасибо, я не буду мясо, я вегетарианец.</div>
+            </div>
+            <div class="dialogue">
+                <div class="speaker">Б:</div>
+                <div class="ad-hominem">Все знают, что ты нищий - у тебя просто не хватает денег на мясо. Ешь сейчас, пока есть возможность!</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fallacy-type">
+        <div class="fallacy-header">
+            <div class="fallacy-number">2</div>
+            <div class="fallacy-title"><span class="emoji">😵💫</span> Обстоятельственный Ad Hominem</div>
+        </div>
+        <p>Убеждение, что человек утверждает что-то только из-за его обстоятельств (должности, выгоды).</p>
+        <div class="example">
+            <div class="example-title">Пример:</div>
+            <div class="dialogue">
+                <div class="speaker">А:</div>
+                <div>Я за повышение зарплат учителям.</div>
+            </div>
+            <div class="dialogue">
+                <div class="speaker">Б:</div>
+                <div class="ad-hominem">Ну конечно, ты же сам учитель! Ты только поэтому и за.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fallacy-type">
+        <div class="fallacy-header">
+            <div class="fallacy-number">3</div>
+            <div class="fallacy-title"><span class="emoji">😊</span> "Ты тоже" (Tu Quoque)</div>
+        </div>
+        <p>Обвинение в лицемерии вместо ответа на аргумент, работает как зеркало в виде фраз "но ты также...", "ты тоже",
+        или "в то же время ты сам..."</p>
+        <div class="example">
+            <div class="example-title">Пример:</div>
+            <div class="dialogue">
+                <div class="speaker">А:</div>
+                <div>Я за здоровый образ жизни.</div>
+            </div>
+            <div class="dialogue">
+                <div class="speaker">Б:</div>
+                <div class="ad-hominem">Ты же сам пару дней назад ел фаст-фуд!</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fallacy-type">
+        <div class="fallacy-header">
+            <div class="fallacy-number">4</div>
+            <div class="fallacy-title"><span class="emoji">🤔</span> Виновен по ассоциации</div>
+        </div>
+        <p>Дискредитация аргумента через связь человека с "плохой" группой или отдельной личностью с не самой лучшей
+        репутацией.</p>
+        <div class="example">
+            <div class="example-title">Пример:</div>
+            <div class="dialogue">
+                <div class="speaker">А:</div>
+                <div>Ницше как-то сказал...</div>
+            </div>
+            <div class="dialogue">
+                <div class="speaker">Б:</div>
+                <div class="ad-hominem">Что? Ты цитируешь Ницше? Он же вдохновлял нацистов, значит, твои идеи опасны!</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fallacy-type">
+        <div class="fallacy-header">
+            <div class="fallacy-number">5</div>
+            <div class="fallacy-title"><span class="emoji">🧬</span> Генетическая ошибка</div>
+        </div>
+        <p>Критика происхождения аргумента, а не самого его содержания: внимание переключается на истоки аргумента, что
+        делает его каким-то «плохим» или «неправильным».</p>
+        <div class="example">
+            <div class="example-title">Пример:</div>
+            <div class="dialogue">
+                <div class="speaker">А:</div>
+                <div>Я согласен с этой научной теорией.</div>
+            </div>
+            <div class="dialogue">
+                <div class="speaker">Б:</div>
+                <div class="ad-hominem">Слушай, она же была придумана в 19 веке, она точно устарела!</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fallacy-type">
+        <div class="fallacy-header">
+            <div class="fallacy-number">6</div>
+            <div class="fallacy-title"><span class="emoji">👩</span> Ad Feminem</div>
+        </div>
+        <p>Подвид оскорбительного Ad Hominem - атака на самого человека, а не на аргумент, только в данном случае человек
+        - женщина, и её критикуют зачастую через гендерные стереотипы.</p>
+        <div class="example">
+            <div class="example-title">Пример:</div>
+            <div class="dialogue">
+                <div class="speaker">А:</div>
+                <div>Мне не нравится, как он со мной поступил.</div>
+            </div>
+            <div class="dialogue">
+                <div class="speaker">Б:</div>
+                <div class="ad-hominem">Ты же женщина, а вы эмоциональны и нелогичны!</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="conclusion">
+        <h2><span class="emoji">🎯</span> Заключение</h2>
+        <p>Все эти приёмы - способы уйти от дискуссии по существу, переключая внимание на что-то совершенно другое не самым
+        уважительным образом. Если вы не согласны с чем-то, то лучше сказать об этом прямо, а не использовать Ad
+        Hominem, ведь это может сильно обидеть другого.</p>
+        <p>Мы все разные, и наши мнения - тоже, нужно просто научиться друг друга уважать и не спорить без надобности, 
+        хоть ладить во всём и бывает непросто <span class="emoji">🤝</span></p>
+        <p style="font-size: 1.2em; margin-top: 20px;"><strong>Ребята, давайте жить дружно <span class="emoji">🐱</span></strong></p>
+    </div>
+
+    <ul>
+        <li><a href="study.html" target="_blank">На страницу ранее</a></li>
+        <li><a href="../index.html" target="_blank">Вернуться в начало</a></li>
+    </ul>
+
+</body>
+</html>
