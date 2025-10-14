@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Стишочки</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Source+Sans+Pro:wght@300;400&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: 300;
+            line-height: 1.7;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fefefe;
+            background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" opacity="0.03"><path fill="%23000" d="M50 0L100 50L50 100L0 50Z"/></svg>');
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 40px;
+            color: #2c3e50;
+            font-size: 2.3em;
+            border-bottom: 2px solid #29c4eb;
+            padding-bottom: 20px;
+            letter-spacing: 0.5px;
+        }
+
+        .subtitle {
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2em;
+            color: #7f8c8d;
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+
+        ul {
+            margin: 40px 0;
+            padding-left: 0;
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        li {
+            margin-bottom: 0;
+        }
+
+        li a {
+            text-decoration: none;
+            color: #2c3e50;
+            padding: 25px;
+            display: block;
+            background-color: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            text-align: center;
+            font-weight: 400;
+            min-height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            position: relative;
+        }
+
+        li a:hover {
+            background-color: #f8f9fa;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(155, 89, 182, 0.2);
+            border-color: #22c2f3;
+        }
+
+        .story-title {
+            font-size: 1.1em;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+
+        .story-subtitle {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            font-style: italic;
+            margin-top: 5px;
+        }
+
+        .nav-active {
+            background-color: #f9f0ff !important;
+            border-color: #13a0d8 !important;
+            color: #15a9c4 !important;
+            font-weight: 500 !important;
+        }
+
+        .back-link {
+            background-color: #f8f9fa !important;
+            border: 2px dashed #bdc3c7 !important;
+            font-style: italic;
+            grid-column: 1 / -1;
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        .back-link:hover {
+            background-color: #e8f4fc !important;
+            border-color: #3498db !important;
+        }
+
+        .container {
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            margin-top: 20px;
+        }
+
+        .fantasy-decoration {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 1.2em;
+        }
+
+        @media (max-width: 768px) {
+            ul {
+                grid-template-columns: 1fr;
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            li a {
+                padding: 20px;
+                min-height: 80px;
+            }
+
+            .back-link {
+                grid-column: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Стихи</h1>
+        <div class="subtitle">Скоро здесь будет много лирики!</div>
+
+        <ul>
+
+            <li><a href="../index.html" target="_blank" class="back-link">
+                    Вернуться в начало
+                </a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
